@@ -1,0 +1,30 @@
+project:
+  type: book
+
+book:
+  title: "Network documentation and courses"
+  author:
+    - "Mélissa GRIES"
+  date: "2/06/2024"
+  chapters:
+    - part: "Introduction"
+      chapters:
+        - index.md
+    - part: ./IPS/index.md
+      chapters:
+        - ./IPS/history.md
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+    papersize: a4
+
+    links-as-notes: true
+    #include-in-header: |
+    # \usepackage{fancyhdr}
+    #  \pagestyle{fancy}
+    #header-includes: |
+    #  \usepackage{fancyhdr}
+    #  \pagestyle{fancyhdr}

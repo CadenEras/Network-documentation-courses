@@ -1,0 +1,9 @@
+/.quarto/
+*_files/
+*.pdf
+*.html
+/result
+.nvimlog
+.idea
+_book
+index_files
